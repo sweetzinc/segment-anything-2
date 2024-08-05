@@ -1,0 +1,12 @@
+jupyterlab
+ipykernel
+opencv-python
+numpy
+scipy
+scikit-learn
+matplotlib
+
+transformers
+tokenizers
+
+
