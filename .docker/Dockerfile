@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.8.0-devel-ubuntu22.04
+FROM nvidia/cuda:12.1.0-devel-ubuntu22.04 
 
 ENV FORCE_CUDA="1"
 ENV MMCV_WITH_OPS=1
