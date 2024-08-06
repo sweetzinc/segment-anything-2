@@ -2,7 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/universal
 {
 	"name": "asn-sam2",
-    "dockerComposeFile": "./docker-compose.yml",
+    "dockerComposeFile": "../.devcontainer/docker-compose.yml",
     "service": "asn-sam2",
     "workspaceFolder": "/workspace",
 
