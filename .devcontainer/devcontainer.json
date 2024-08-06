@@ -2,7 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/universal
 {
 	"name": "asn-sam2",
-    "dockerComposeFile": "./docker/docker-compose.yml",
+    "dockerComposeFile": "./docker-compose.yml",
     "service": "asn-sam2",
     "workspaceFolder": "/workspace",
 
@@ -26,7 +26,6 @@
         // "pip install -r requirements.txt",
         "nvidia-smi"
     ],
-
 	// Configure tool-specific properties.
     "customizations": {
         "vscode": {

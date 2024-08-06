@@ -29,7 +29,7 @@ RUN pip3 install --upgrade pip \
         openmim       
 
 # Install requirements
-COPY requirements.txt /tmp/requirements.txt
+COPY ./requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
 
 
