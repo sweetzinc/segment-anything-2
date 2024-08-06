@@ -6,7 +6,7 @@ services:
     image: asn-sam2-image
     container_name: asn-sam2-container 
     volumes:
-      # - ../:/workspace
+      - ../:/workspace
       - C:\docker_share:/data:cached 
       # - /mnt/c/docker_share:/shared_data
       # - C:\Users\Stephanie\repos\clones\YOLO-World:/yolo-world:cached

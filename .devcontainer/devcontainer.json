@@ -21,24 +21,24 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	//"forwardPorts": [],
 
-    "remoteUser": "root",
+    // "remoteUser": "root",
     "postCreateCommand": [
         // "pip install -r requirements.txt",
         "nvidia-smi"
-    ],
+    ]
 	// Configure tool-specific properties.
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-azuretools.vscode-docker",
-                "ms-python.python",
-                "ms-toolsai.jupyter",
-                "ms-toolsai.vscode-jupyter-cell-tags",
-                "ms-toolsai.jupyter-keymap",
-                "ms-toolsai.jupyter-renderers",
-                "ms-toolsai.vscode-jupyter-slideshow",
-                "ms-python.vscode-pylance"
-            ]
-        }
-    }
+    // "customizations": {
+    //     "vscode": {
+    //         "extensions": [
+    //             "ms-azuretools.vscode-docker",
+    //             "ms-python.python",
+    //             "ms-toolsai.jupyter",
+    //             "ms-toolsai.vscode-jupyter-cell-tags",
+    //             "ms-toolsai.jupyter-keymap",
+    //             "ms-toolsai.jupyter-renderers",
+    //             "ms-toolsai.vscode-jupyter-slideshow",
+    //             "ms-python.vscode-pylance"
+    //         ]
+    //     }
+    // }
 }
