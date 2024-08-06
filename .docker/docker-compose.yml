@@ -1,9 +1,9 @@
 services:
   asn-sam2:
-    # build: 
-    #   context: .
-    #   dockerfile: Dockerfile 
-    image: asn-sam2-image
+    build: 
+      context: .
+      dockerfile: Dockerfile 
+    # image: asn-sam2-image
     container_name: asn-sam2-container 
     volumes:
       - ../:/workspace
