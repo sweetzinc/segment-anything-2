@@ -15,6 +15,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-dev     \
     python3-wheel
 
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    wget            \
+    curl
+
 # Version info from https://pytorch.org/get-started/previous-versions/    
 RUN pip3 install --no-cache-dir --index-url https://download.pytorch.org/whl/cu118 \
     wheel                   \
